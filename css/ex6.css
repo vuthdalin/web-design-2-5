@@ -1,0 +1,53 @@
+.container{
+  width: 100%;
+  height: 300px;
+  background-color: aquamarine;
+}
+.header{
+  width: 100%;
+  height: 15%;
+  background-color: rgb(6, 24, 18);
+ 
+  display: flex;
+}
+.left{
+  width: 75%;
+  height: 100%;
+  display: flex;
+  
+}
+.right{
+  width: 25%;
+  height: 100%;
+  align-items: center;
+  justify-content: end;
+  display: flex;
+  
+}
+.left a{
+  margin: 15px;
+  align-items: center;
+  display: flex;
+  color: aliceblue;
+}
+.right a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.body{
+  width: 100%;
+  height: 85%;
+  background-color: rgb(67, 19, 42);
+  justify-content: space-between;
+  display: flex;
+}
+.body-left{
+  width: 78%;
+  height: 100%;
+  background-color: rgb(174, 144, 23);
+}
+.body-right{
+  width: 20%;
+  height: 100%;
+  background-color: rgb(62, 29, 124);
+}
